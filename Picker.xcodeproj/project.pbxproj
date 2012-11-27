@@ -16,6 +16,28 @@
 		011A29761664F0DB003D75C0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 011A29751664F0DB003D75C0 /* Default.png */; };
 		011A29781664F0DB003D75C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011A29771664F0DB003D75C0 /* Default@2x.png */; };
 		011A297A1664F0DB003D75C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011A29791664F0DB003D75C0 /* Default-568h@2x.png */; };
+		011A29901664F2A8003D75C0 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011A298F1664F2A8003D75C0 /* TabBarController.xib */; };
+		01A6DB9016650EA800AAE2B3 /* BIDDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB8E16650EA800AAE2B3 /* BIDDatePickerViewController.m */; };
+		01A6DB9116650EA800AAE2B3 /* BIDDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DB8F16650EA800AAE2B3 /* BIDDatePickerViewController.xib */; };
+		01A6DB9516650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB9316650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.m */; };
+		01A6DB9616650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DB9416650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.xib */; };
+		01A6DB9A16650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB9816650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.m */; };
+		01A6DB9B16650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DB9916650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.xib */; };
+		01A6DB9F16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB9D16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.m */; };
+		01A6DBA016650F1600AAE2B3 /* BIDDependentComponentPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DB9E16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.xib */; };
+		01A6DBA416650F3200AAE2B3 /* BIDCustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DBA216650F3200AAE2B3 /* BIDCustomPickerViewController.m */; };
+		01A6DBA516650F3200AAE2B3 /* BIDCustomPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBA316650F3200AAE2B3 /* BIDCustomPickerViewController.xib */; };
+		01A6DBB91665157100AAE2B3 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBB31665157100AAE2B3 /* apple.png */; };
+		01A6DBBA1665157100AAE2B3 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBB41665157100AAE2B3 /* bar.png */; };
+		01A6DBBB1665157100AAE2B3 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBB51665157100AAE2B3 /* cherry.png */; };
+		01A6DBBC1665157100AAE2B3 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBB61665157100AAE2B3 /* crown.png */; };
+		01A6DBBD1665157100AAE2B3 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBB71665157100AAE2B3 /* lemon.png */; };
+		01A6DBBE1665157100AAE2B3 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBB81665157100AAE2B3 /* seven.png */; };
+		01A6DBC5166515CC00AAE2B3 /* clockicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBC0166515CC00AAE2B3 /* clockicon.png */; };
+		01A6DBC6166515CC00AAE2B3 /* dependenticon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBC1166515CC00AAE2B3 /* dependenticon.png */; };
+		01A6DBC7166515CC00AAE2B3 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBC2166515CC00AAE2B3 /* doubleicon.png */; };
+		01A6DBC8166515CC00AAE2B3 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBC3166515CC00AAE2B3 /* singleicon.png */; };
+		01A6DBC9166515CC00AAE2B3 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DBC4166515CC00AAE2B3 /* toolicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +54,33 @@
 		011A29751664F0DB003D75C0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		011A29771664F0DB003D75C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		011A29791664F0DB003D75C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		011A298F1664F2A8003D75C0 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		01A6DB8D16650EA800AAE2B3 /* BIDDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDatePickerViewController.h; sourceTree = "<group>"; };
+		01A6DB8E16650EA800AAE2B3 /* BIDDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDatePickerViewController.m; sourceTree = "<group>"; };
+		01A6DB8F16650EA800AAE2B3 /* BIDDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDatePickerViewController.xib; sourceTree = "<group>"; };
+		01A6DB9216650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDSingleComponentPickerViewController.h; sourceTree = "<group>"; };
+		01A6DB9316650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDSingleComponentPickerViewController.m; sourceTree = "<group>"; };
+		01A6DB9416650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDSingleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		01A6DB9716650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BIDDoubleComponentPickerViewController.h; path = ../BIDDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		01A6DB9816650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BIDDoubleComponentPickerViewController.m; path = ../BIDDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		01A6DB9916650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BIDDoubleComponentPickerViewController.xib; path = ../BIDDoubleComponentPickerViewController.xib; sourceTree = "<group>"; };
+		01A6DB9C16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDependentComponentPickerViewController.h; sourceTree = "<group>"; };
+		01A6DB9D16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDependentComponentPickerViewController.m; sourceTree = "<group>"; };
+		01A6DB9E16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDependentComponentPickerViewController.xib; sourceTree = "<group>"; };
+		01A6DBA116650F3200AAE2B3 /* BIDCustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDCustomPickerViewController.h; sourceTree = "<group>"; };
+		01A6DBA216650F3200AAE2B3 /* BIDCustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDCustomPickerViewController.m; sourceTree = "<group>"; };
+		01A6DBA316650F3200AAE2B3 /* BIDCustomPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDCustomPickerViewController.xib; sourceTree = "<group>"; };
+		01A6DBB31665157100AAE2B3 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = apple.png; sourceTree = "<group>"; };
+		01A6DBB41665157100AAE2B3 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		01A6DBB51665157100AAE2B3 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		01A6DBB61665157100AAE2B3 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		01A6DBB71665157100AAE2B3 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		01A6DBB81665157100AAE2B3 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		01A6DBC0166515CC00AAE2B3 /* clockicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clockicon.png; sourceTree = "<group>"; };
+		01A6DBC1166515CC00AAE2B3 /* dependenticon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dependenticon.png; sourceTree = "<group>"; };
+		01A6DBC2166515CC00AAE2B3 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
+		01A6DBC3166515CC00AAE2B3 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
+		01A6DBC4166515CC00AAE2B3 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +127,25 @@
 		011A29691664F0DB003D75C0 /* Picker */ = {
 			isa = PBXGroup;
 			children = (
+				01A6DB9716650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.h */,
+				01A6DB9816650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.m */,
+				01A6DB9916650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.xib */,
 				011A29721664F0DB003D75C0 /* AppDelegate.h */,
 				011A29731664F0DB003D75C0 /* AppDelegate.m */,
+				011A298F1664F2A8003D75C0 /* TabBarController.xib */,
 				011A296A1664F0DB003D75C0 /* Supporting Files */,
+				01A6DB8D16650EA800AAE2B3 /* BIDDatePickerViewController.h */,
+				01A6DB8E16650EA800AAE2B3 /* BIDDatePickerViewController.m */,
+				01A6DB8F16650EA800AAE2B3 /* BIDDatePickerViewController.xib */,
+				01A6DBA116650F3200AAE2B3 /* BIDCustomPickerViewController.h */,
+				01A6DBA216650F3200AAE2B3 /* BIDCustomPickerViewController.m */,
+				01A6DBA316650F3200AAE2B3 /* BIDCustomPickerViewController.xib */,
+				01A6DB9216650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.h */,
+				01A6DB9316650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.m */,
+				01A6DB9416650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.xib */,
+				01A6DB9C16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.h */,
+				01A6DB9D16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.m */,
+				01A6DB9E16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.xib */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -88,6 +153,8 @@
 		011A296A1664F0DB003D75C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01A6DBBF166515CC00AAE2B3 /* Tab Bar Icons */,
+				01A6DBB21665157100AAE2B3 /* Custom Picker Images */,
 				011A296B1664F0DB003D75C0 /* Picker-Info.plist */,
 				011A296C1664F0DB003D75C0 /* InfoPlist.strings */,
 				011A296F1664F0DB003D75C0 /* main.m */,
@@ -97,6 +164,31 @@
 				011A29791664F0DB003D75C0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01A6DBB21665157100AAE2B3 /* Custom Picker Images */ = {
+			isa = PBXGroup;
+			children = (
+				01A6DBB31665157100AAE2B3 /* apple.png */,
+				01A6DBB41665157100AAE2B3 /* bar.png */,
+				01A6DBB51665157100AAE2B3 /* cherry.png */,
+				01A6DBB61665157100AAE2B3 /* crown.png */,
+				01A6DBB71665157100AAE2B3 /* lemon.png */,
+				01A6DBB81665157100AAE2B3 /* seven.png */,
+			);
+			path = "Custom Picker Images";
+			sourceTree = "<group>";
+		};
+		01A6DBBF166515CC00AAE2B3 /* Tab Bar Icons */ = {
+			isa = PBXGroup;
+			children = (
+				01A6DBC0166515CC00AAE2B3 /* clockicon.png */,
+				01A6DBC1166515CC00AAE2B3 /* dependenticon.png */,
+				01A6DBC2166515CC00AAE2B3 /* doubleicon.png */,
+				01A6DBC3166515CC00AAE2B3 /* singleicon.png */,
+				01A6DBC4166515CC00AAE2B3 /* toolicon.png */,
+			);
+			path = "Tab Bar Icons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +246,23 @@
 				011A29761664F0DB003D75C0 /* Default.png in Resources */,
 				011A29781664F0DB003D75C0 /* Default@2x.png in Resources */,
 				011A297A1664F0DB003D75C0 /* Default-568h@2x.png in Resources */,
+				011A29901664F2A8003D75C0 /* TabBarController.xib in Resources */,
+				01A6DB9116650EA800AAE2B3 /* BIDDatePickerViewController.xib in Resources */,
+				01A6DB9616650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.xib in Resources */,
+				01A6DB9B16650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.xib in Resources */,
+				01A6DBA016650F1600AAE2B3 /* BIDDependentComponentPickerViewController.xib in Resources */,
+				01A6DBA516650F3200AAE2B3 /* BIDCustomPickerViewController.xib in Resources */,
+				01A6DBB91665157100AAE2B3 /* apple.png in Resources */,
+				01A6DBBA1665157100AAE2B3 /* bar.png in Resources */,
+				01A6DBBB1665157100AAE2B3 /* cherry.png in Resources */,
+				01A6DBBC1665157100AAE2B3 /* crown.png in Resources */,
+				01A6DBBD1665157100AAE2B3 /* lemon.png in Resources */,
+				01A6DBBE1665157100AAE2B3 /* seven.png in Resources */,
+				01A6DBC5166515CC00AAE2B3 /* clockicon.png in Resources */,
+				01A6DBC6166515CC00AAE2B3 /* dependenticon.png in Resources */,
+				01A6DBC7166515CC00AAE2B3 /* doubleicon.png in Resources */,
+				01A6DBC8166515CC00AAE2B3 /* singleicon.png in Resources */,
+				01A6DBC9166515CC00AAE2B3 /* toolicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +275,11 @@
 			files = (
 				011A29701664F0DB003D75C0 /* main.m in Sources */,
 				011A29741664F0DB003D75C0 /* AppDelegate.m in Sources */,
+				01A6DB9016650EA800AAE2B3 /* BIDDatePickerViewController.m in Sources */,
+				01A6DB9516650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.m in Sources */,
+				01A6DB9A16650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.m in Sources */,
+				01A6DB9F16650F1600AAE2B3 /* BIDDependentComponentPickerViewController.m in Sources */,
+				01A6DBA416650F3200AAE2B3 /* BIDCustomPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +386,7 @@
 				011A297F1664F0DB003D75C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
