@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BIDDoubleComponentPickerViewController : UIViewController
+@interface BIDDoubleComponentPickerViewController : UIViewController<UIPickerViewDataSource, UIPickerViewDelegate>
+
+@property (strong, nonatomic) IBOutlet UIPickerView *picker;
+@property (strong, nonatomic) IBOutlet NSArray *nameArray;
+@property (strong, nonatomic) IBOutlet NSArray *fruitArray;
+
+-(IBAction)buttonPress:(id)sender;
 
 @end
