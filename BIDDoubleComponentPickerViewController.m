@@ -58,7 +58,12 @@
 #pragma picker data source
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
-    return [self.nameArray count];
+    if (component == 0)
+    {
+        return self.nameArray.count;
+    }
+    
+    return [self.fruitArray count];
 }
 
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView

@@ -17,6 +17,7 @@
 		011A29781664F0DB003D75C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011A29771664F0DB003D75C0 /* Default@2x.png */; };
 		011A297A1664F0DB003D75C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011A29791664F0DB003D75C0 /* Default-568h@2x.png */; };
 		011A29901664F2A8003D75C0 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011A298F1664F2A8003D75C0 /* TabBarController.xib */; };
+		019F7EC41667447300B251DA /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 019F7EC31667447300B251DA /* statedictionary.plist */; };
 		01A6DB9016650EA800AAE2B3 /* BIDDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB8E16650EA800AAE2B3 /* BIDDatePickerViewController.m */; };
 		01A6DB9116650EA800AAE2B3 /* BIDDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DB8F16650EA800AAE2B3 /* BIDDatePickerViewController.xib */; };
 		01A6DB9516650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB9316650ECE00AAE2B3 /* BIDSingleComponentPickerViewController.m */; };
@@ -55,6 +56,7 @@
 		011A29771664F0DB003D75C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		011A29791664F0DB003D75C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		011A298F1664F2A8003D75C0 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		019F7EC31667447300B251DA /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		01A6DB8D16650EA800AAE2B3 /* BIDDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDatePickerViewController.h; sourceTree = "<group>"; };
 		01A6DB8E16650EA800AAE2B3 /* BIDDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDatePickerViewController.m; sourceTree = "<group>"; };
 		01A6DB8F16650EA800AAE2B3 /* BIDDatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BIDDatePickerViewController.xib; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		011A29691664F0DB003D75C0 /* Picker */ = {
 			isa = PBXGroup;
 			children = (
+				019F7EC31667447300B251DA /* statedictionary.plist */,
 				01A6DB9716650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.h */,
 				01A6DB9816650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.m */,
 				01A6DB9916650EF300AAE2B3 /* BIDDoubleComponentPickerViewController.xib */,
@@ -263,6 +266,7 @@
 				01A6DBC7166515CC00AAE2B3 /* doubleicon.png in Resources */,
 				01A6DBC8166515CC00AAE2B3 /* singleicon.png in Resources */,
 				01A6DBC9166515CC00AAE2B3 /* toolicon.png in Resources */,
+				019F7EC41667447300B251DA /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
