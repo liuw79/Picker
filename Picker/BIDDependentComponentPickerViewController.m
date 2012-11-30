@@ -59,12 +59,9 @@
     NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfURL:plistURL];
     self.stateZips = dictionary;
     
-    NSLog(@"stateZips:%@", self.stateZips);
-    
     NSArray *components = [self.stateZips allKeys];
     NSArray *sorted = [components sortedArrayUsingSelector:@selector(compare:)];
     self.states = sorted;
-    NSLog(@"states:%@", self.states);
     
     NSString *selectedState = [self.states objectAtIndex:0];
     NSArray *array = [self.stateZips objectForKey:selectedState];

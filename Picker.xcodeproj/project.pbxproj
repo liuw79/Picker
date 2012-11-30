@@ -17,6 +17,9 @@
 		011A29781664F0DB003D75C0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011A29771664F0DB003D75C0 /* Default@2x.png */; };
 		011A297A1664F0DB003D75C0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 011A29791664F0DB003D75C0 /* Default-568h@2x.png */; };
 		011A29901664F2A8003D75C0 /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 011A298F1664F2A8003D75C0 /* TabBarController.xib */; };
+		019B323416689F7B00C9B599 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 019B323216689F7B00C9B599 /* crunch.wav */; };
+		019B323516689F7B00C9B599 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 019B323316689F7B00C9B599 /* win.wav */; };
+		019B32381668A82500C9B599 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019B32371668A82500C9B599 /* AudioToolbox.framework */; };
 		019F7EC41667447300B251DA /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 019F7EC31667447300B251DA /* statedictionary.plist */; };
 		01A6DB9016650EA800AAE2B3 /* BIDDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6DB8E16650EA800AAE2B3 /* BIDDatePickerViewController.m */; };
 		01A6DB9116650EA800AAE2B3 /* BIDDatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01A6DB8F16650EA800AAE2B3 /* BIDDatePickerViewController.xib */; };
@@ -56,6 +59,9 @@
 		011A29771664F0DB003D75C0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		011A29791664F0DB003D75C0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		011A298F1664F2A8003D75C0 /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		019B323216689F7B00C9B599 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		019B323316689F7B00C9B599 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		019B32371668A82500C9B599 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		019F7EC31667447300B251DA /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 		01A6DB8D16650EA800AAE2B3 /* BIDDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIDDatePickerViewController.h; sourceTree = "<group>"; };
 		01A6DB8E16650EA800AAE2B3 /* BIDDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIDDatePickerViewController.m; sourceTree = "<group>"; };
@@ -90,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				019B32381668A82500C9B599 /* AudioToolbox.framework in Frameworks */,
 				011A29641664F0DB003D75C0 /* UIKit.framework in Frameworks */,
 				011A29661664F0DB003D75C0 /* Foundation.framework in Frameworks */,
 				011A29681664F0DB003D75C0 /* CoreGraphics.framework in Frameworks */,
@@ -102,6 +109,7 @@
 		011A29541664F0DB003D75C0 = {
 			isa = PBXGroup;
 			children = (
+				019B32371668A82500C9B599 /* AudioToolbox.framework */,
 				011A29691664F0DB003D75C0 /* Picker */,
 				011A29621664F0DB003D75C0 /* Frameworks */,
 				011A29601664F0DB003D75C0 /* Products */,
@@ -156,6 +164,7 @@
 		011A296A1664F0DB003D75C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				019B323116689F7B00C9B599 /* Custom Picker Sounds */,
 				01A6DBBF166515CC00AAE2B3 /* Tab Bar Icons */,
 				01A6DBB21665157100AAE2B3 /* Custom Picker Images */,
 				011A296B1664F0DB003D75C0 /* Picker-Info.plist */,
@@ -167,6 +176,15 @@
 				011A29791664F0DB003D75C0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		019B323116689F7B00C9B599 /* Custom Picker Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				019B323216689F7B00C9B599 /* crunch.wav */,
+				019B323316689F7B00C9B599 /* win.wav */,
+			);
+			path = "Custom Picker Sounds";
 			sourceTree = "<group>";
 		};
 		01A6DBB21665157100AAE2B3 /* Custom Picker Images */ = {
@@ -267,6 +285,8 @@
 				01A6DBC8166515CC00AAE2B3 /* singleicon.png in Resources */,
 				01A6DBC9166515CC00AAE2B3 /* toolicon.png in Resources */,
 				019F7EC41667447300B251DA /* statedictionary.plist in Resources */,
+				019B323416689F7B00C9B599 /* crunch.wav in Resources */,
+				019B323516689F7B00C9B599 /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
